@@ -1,0 +1,137 @@
+@import "../../../css utils/variables.module.css";
+
+.signup {
+  display: flex;
+  min-height: 100vh;
+}
+
+.signup__text {
+  flex-basis: 58%;
+  background-image: url("../../../assets/img/signin-bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 5rem 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & > div {
+    background-color: var(--bg__clr);
+    max-width: 50rem;
+    min-width: 50rem;
+    padding: 4rem;
+    border-radius: 3rem;
+    position: relative;
+    h2 {
+      font-size: 2.3rem;
+      font-weight: var(--fw__bold);
+      font-family: var(--font__philoSopher);
+      margin-bottom: 2.5rem;
+    }
+    p {
+      font-size: var(--font__xsm);
+      font-family: var(--font__openSans);
+      line-height: 2.5rem;
+    }
+    div {
+      font-size: 3rem;
+      color: var(--bg__clr);
+      background-color: var(--primary__clr);
+      max-width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+      border-radius: 50%;
+      position: absolute;
+      top: -25%;
+      right: 5rem;
+      transform: translateY(25%);
+    }
+  }
+}
+
+.signup__form {
+  flex-basis: 42%;
+  background-image: url("../../../assets/img/mondok-logo3.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.2rem;
+  padding-inline: 7rem;
+  & > * {
+    margin-bottom: 2rem;
+  }
+  img {
+    width: 20rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  h1 {
+    font-size: 3.2rem;
+    font-family: var(--font__philoSopher);
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    label {
+      font-size: 1.2rem;
+      font-weight: var(--fw__semiBold);
+      margin-bottom: 0.5rem;
+      display: flex;
+      gap: 0.5rem;
+      span {
+        color: red;
+        font-weight: var(--fw__semiBold);
+        font-size: var(--font__xsm);
+      }
+    }
+    p {
+      color: #c3c3c3;
+      font-size: var(--font__xsm);
+      a {
+        margin-left: 0.5rem;
+      }
+    }
+    input {
+      height: 4.5rem;
+      border-radius: 0.5rem;
+      background-color: transparent;
+      border: 2px solid;
+      border-color: #c3c3c3;
+      padding-inline: 1rem;
+      outline: none;
+      font-size: var(--font__xsm);
+      font-weight: var(--fw__semiBold);
+      transition: 0.3s border-color ease;
+      &:hover {
+        border-color: var(--primary__clr);
+      }
+      & ~ p{
+        color: red;
+      }
+    }
+    button {
+      height: 5rem;
+      border-radius: 3rem;
+      background-color: var(--primary__clr);
+      color: var(--bg__clr);
+      font-weight: var(--fw__semiBold);
+      font-size: 1.6rem;
+      transition: 0.3s background-color ease;
+      &:hover {
+        background-color: #0d776c;
+      }
+    }
+  }
+  .create {
+    color: var(--primary__clr);
+    font-weight: var(--fw__medium);
+    transition: 0.3s color ease;
+    &:hover {
+      color: #0d776c;
+    }
+  }
+}

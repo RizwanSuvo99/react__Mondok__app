@@ -1,0 +1,26 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@400;500;600;700&display=swap');
+
+/* Fonts */
+:root {
+  --font__philoSopher: "Philosopher", sans-serif;
+  --font__openSans: "Open Sans", sans-serif;
+  --font__quickSand: 'Quicksand', sans-serif;
+
+  --fw__regular: 400;
+  --fw__medium: 500;
+  --fw__semiBold: 600;
+  --fw__bold: 700;
+
+  --font__xsm: 1.4rem;
+  --font__sm: 1.8rem;
+  --font__md: 2.3rem;
+  --font__lg: 4rem;
+}
+/* Colors */
+:root {
+  --primary__clr: #119e91;
+  --secondary__clr: #151515;
+  --bg__clr: #fff;
+  --text__clr: #000;
+}

@@ -1,0 +1,25 @@
+.home {
+  background-image: url("../../assets/img/bg-slider-1.jpg");
+  background-color: rgba(0, 0, 0,0.3);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 85rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: var(--font__philoSopher);
+  color: var(--bg__clr);
+
+  & h5 {
+    font-size: 3rem;
+    font-weight: var(--fw__medium);
+  }
+  & h1 {
+    font-size: 20rem;
+    font-weight: var(--fw__medium);
+  }
+}
