@@ -1,11 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import NotFound from "../pages/NotFound/NotFound";
-import Home from "../pages/Home/Home";
-import Contact from "../pages/Contact/Contact";
+import About from "../pages/About/About";
 import SignIn from "../pages/Auth/SignIn/SignIn";
 import SignUp from "../pages/Auth/SignUp/SignUp";
+import Contact from "../pages/Contact/Contact";
+import Home from "../pages/Home/Home";
+import NotFound from "../pages/NotFound/NotFound";
 
 const routes = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const routes = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
     ],
   },

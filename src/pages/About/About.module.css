@@ -1,0 +1,7 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 85rem;
+  padding-top: 14rem;
+}
